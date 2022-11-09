@@ -1,0 +1,377 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.transition:hover {
+    color: #872C49;
+    background-color: #D8C2C9;
+    border-radius: 25px;
+    transition: 0.7s;
+    padding: 10px;
+}
+body {
+    background-color: #D8C2C9
+}
+
+header{
+    background-image: url("/img/background-principal.jpg");
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    height: 70px;
+}
+
+.header__icon-logo {
+    width: 100px;
+}
+
+#header__lista-navegacao {
+    list-style: none;
+}
+
+.header__lista-navegação__elementos {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
+}
+
+#menu1 {
+    width: 50px;
+    display:none;
+    padding:20px;
+}
+
+#menu2 {
+    width: 50px;
+    display:none;
+}
+
+#header__quary1 {
+    display: none;
+}
+
+
+ nav {
+    background-color:#D8C2C9;
+    text-align: center;
+    padding: 25px;
+ }
+
+ .nav__botao {
+    background-color: #872C49;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+ }
+
+.nav__botao:hover {
+    color: #872C49;
+    background-color: #D8C2C9;
+    border: 2px solid #872C49;
+    transition: 0.7s;
+    padding: 15px;
+}
+
+.img-size {
+    max-width: 600px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border: 3px solid #512e39;
+    border-radius: 10px;
+
+}
+
+#form-grid {
+    color: black;
+    background-color: #D8C2C9;
+    display: grid;
+    padding: 30px;
+    gap: 50px;
+    text-align: center;
+    border-top: 3px solid #512e39;
+    grid-template-areas: 
+    "descricão-form descricão-form"
+    "aventura form-1" 
+    "tipo-vinho form-2"
+    "estilo-vinho form-3" 
+    "comida form-4"
+    "hora form-5" 
+    "romance form-6" 
+    "comemoracao form-7";
+}
+
+#descricão-form {
+    grid-area: descricão-form;
+    border: 2px solid #512e39;
+    border-radius: 10px ;
+    font-size: 30px;
+}
+
+#aventura {
+    grid-area: aventura;
+}
+
+
+#form-1 {
+    grid-area: form-1;
+    border: solid #512e39;
+    border-radius: 10px ;
+    font-size: 23px;
+    
+}
+
+#tipo-vinho {
+    grid-area: tipo-vinho;
+}
+
+#form-2 {
+    grid-area: form-2;
+    border: solid #512e39;
+    border-radius: 10px ;
+    font-size: 23px;
+}
+
+#estilo-vinho {
+    grid-area: estilo-vinho;
+}
+
+#form-3 {
+    grid-area: form-3;
+    border: solid #512e39;
+    border-radius: 10px ;
+    font-size: 28px;
+}
+
+#comida {
+    grid-area: comida;
+}
+
+#form-4 {
+    grid-area: form-4;
+    border: solid #512e39;
+    border-radius: 10px ;
+    font-size: 24px;
+}
+
+#hora {
+    grid-area: hora;
+}
+
+#form-5 {
+    grid-area: form-5;
+    border: solid #512e39;
+    border-radius: 10px ;
+    font-size: 28px;
+}
+
+#romance {
+    grid-area: romance;
+}
+
+#form-6 {
+    grid-area: form-6;
+    border: solid #512e39;
+    border-radius: 10px ;
+    font-size: 24px;
+}
+
+#comemoracao {
+    grid-area: comemoracao;
+}
+
+#form-7 {
+    grid-area: form-7;
+    border: solid #512e39;
+    border-radius: 10px ;
+    font-size: 23px;
+}
+
+#botao__enviar {
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 25px ;
+    border: transparent;
+    background-color: #2C933C;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#botao__enviar:hover {
+    padding: 25px;
+    border: 3px solid #872C49;
+}
+
+#botao__resetar {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 25px ;
+    border: transparent;
+    background-color: #D02F4C;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#botao__resetar:hover {
+    padding: 20px;
+    border: 3px solid #872C49;
+}
+
+footer {
+    background-image: url("/img/background-principal.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-top: solid #512e39 ;
+ }
+
+ #footer__logo {
+    text-decoration: none;
+    color: white;
+    background-color: #512e39;
+ }
+
+.footer-lista-elementos {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+
+@media (max-width: 1024px){
+    .query__none {
+        display: none;
+    }
+
+    #menu1 {
+        display: block;
+    }
+
+
+    #menu1:hover #header__quary1 {
+        display: block;
+        position: absolute;
+        background-image: url(../img/background-principal.jpg);
+        margin-top: 15px;
+        margin-left: -100px;
+        padding: 7px;
+    }
+
+    #menu1:hover #header__quary1__lista-suspensa {
+        display: block;
+    }
+
+    #menu1:hover .header__quary1__lista-suspensa__elementos {
+        list-style: none;
+        text-align: center;
+        width: 150px;
+        padding: 15px;
+        border-radius: 10px;
+        transition: 0.7s;
+    }
+
+    #menu1:hover .header__quary1__lista-suspensa__elementos:hover {
+        background-color: #D8C2C9;
+    }
+
+    .seção-em-destaque {
+        flex-direction: column;
+        margin: 20px auto;
+   }
+
+   .seção-em-destaque__img {
+    margin-bottom: 25px;
+   }
+
+   #img__none{
+    display: none;
+   }
+    
+}
+
+@media (max-width: 905px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .query__none {
+        display: none;
+    }
+
+    #header__lista-navegacao {
+        display: none;
+    }
+    
+    #menu1{
+        display: none;
+    }
+
+    #menu2 {
+        display: block;
+    }
+
+    #header__quary2__lista-suspensa {
+        display: none;
+    }
+
+    #menu2:hover #header__quary2 {
+        display: block;
+        position: absolute;
+        background-image: url(../img/background-principal.jpg);
+        margin-top: 15px;
+        margin-left: -100px;
+        padding: 7px;
+    }
+
+    #menu2:hover #header__quary2__lista-suspensa {
+        display: block;
+    }
+
+    #menu2:hover .header__quary2__lista-suspensa__elementos {
+        list-style: none;
+        text-align: center;
+        width: 150px;
+        padding: 15px;
+        border-radius: 10px;
+        transition: 0.7s;
+    }
+
+    #menu2:hover .header__quary2__lista-suspensa__elementos:hover {
+        background-color: #D8C2C9;
+    }
+
+    .seção-em-destaque {
+        margin: center;
+    }
+
+    footer {
+        background-image: url(../img/background-footer.jpg);
+    }
+
+    .footer-lista-elementos {
+        display: block;
+    }
+
+}

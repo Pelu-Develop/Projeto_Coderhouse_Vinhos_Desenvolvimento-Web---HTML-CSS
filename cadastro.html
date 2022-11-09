@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção - Assinatura</title>
+    <link rel="stylesheet" href="css/pagina_cadastro.css">
+</head>
+<body>
+    <header>
+        <img src="img/Harmonize-se.png" alt="emoticon" class="header__icon-logo">
+    <lo id="header__lista-navegacao">
+        <li class="header__lista-navegação__elementos"><a href="home.html">Inicio</li>
+        <li class="header__lista-navegação__elementos"><a href="Vinhos.html">Vinhos</li>
+        <li class="header__lista-navegação__elementos"><a href="pacotes.html">Pacotes</li>
+        <li class="header__lista-navegação__elementos"><a href="cadastro.html">Cadastro</li>
+    </lo>
+    <img src="img/PESQUISA.svg" id="header__icon-pesquisa">
+    <img src="img/Group.svg" class="header__icons">
+    <img src="img/Vector.svg" class="header__icons">
+    </header>
+
+    <nav>
+    <a href="Me-Indique-um-Vinho.html" class="nav__botao">Quero Vinho</a>
+    </nav>
+    <section>
+    <div id="vitrine">
+        <img src="img/Banner-cadastro.png" id="vitrine__img">
+        <h1 id="vitrine__text1"><b>Ainda não é assinante?</b></h1>
+        <h2 id="vitrine__text2">Cadastra-se agora e escolha sua assinatura</h2>
+        </div>
+        <form id="form">
+            <div>
+                <label for="nome">Nome completo: </label><br>
+                <input type="text" name="nome" id="nome" placeholder="Pedro Lucas Carolino Felix" class="form__input">
+                <br><br>
+                <label for="CPF"> CPF:</label><br>
+                    <input type="text" name="CPF" id="CPF"
+                           placeholder="xxx.xxx.xxx-xx"
+                           maxlength="14"
+                           pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                           title="Digite um CPF no formato: xxx.xxx.xxx-xx"
+                           class="form__input">
+                           <br><br>
+                <label for="email"> E-mail: </label> <br>
+                    <input type="email" name="email" id="email" placeholder="email@gmail.com" class="form__input">
+                <br><br>
+                <label for="password"> Senha : </label> <br>
+                    <input type="password" name="password" id="password" placeholder="••••••••••" class="form__input">
+                    <br><br>
+                <label> Sexo:</label><br>
+                <label>
+                    <input type="radio" name="Genero" id="Masculino"> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="Genero" id="Feminino"> Feminino
+                </label>
+                <label>
+                    <input type="radio" name="Genero" id="Não quero responder"> N/A
+                </label>
+                <br><br>
+                <label>
+                    <input type="checkbox" name="Aceito as condicões e termos" id="form__condicoes"> Aceito as condicões e termos
+                </label>
+                <br><br>
+                <input type="submit" value="Assinar" id="form__enviar">
+                <input type="reset" value="Resetar os Campos" id="form__cancelar">
+            </div>
+            <div>
+                <label for="apelido"> Como eu quero ser chamado: </label><br>
+                    <input type="text" name="apelido" id="apelido" placeholder="Pelu" class="form__input">
+                    <br><br>
+                <label for="data-de-nascimento"> Data de Nascimento :</label><br>
+                    <input type="date" name="data-de-nascimento" id="data-de-nascimento" class="form__input">
+                <br><br>
+                <label for="email-confirm"> Confirme seu E-mail: </label> <br>
+                    <input type="email" name="email-confirm" id="email-confirm" placeholder="email@gmail.com" class="form__input">
+                    <br><br>
+                    <label for="password-confirm"> Confirme sua senha Senha : </label> <br>
+                    <input type="password" name="password-confirm" id="password-confirm" placeholder="••••••••••" class="form__input">
+                    <br><br>
+                    <label for="telefone">Telefone : </label><br>
+                        <input type="tel" name="telefone" id="telefone" placeholder="(XX)XXXXX-XXXX"
+                        maxlength="15" class="form__input">
+                    <br><br>
+         </div>
+        </form>
+    </section>
+    <footer>
+        <img src="img/Harmonize-se.png" alt="emoticon" class="header__icon-logo">
+        <lo >
+            <li class="footer-lista-elementos"><a href="">Sobre nós</li>
+            <li class="footer-lista-elementos"><a href="">Contatos</li>
+            <li class="footer-lista-elementos"><a href="">Trabalho Conosco</li>
+            <li class="footer-lista-elementos"><a href="">Blog</li>
+            <li class="footer-lista-elementos"><a href="">FAQ</li>
+            <li class="footer-lista-elementos"><a href="">Politica de Privacidade</li>
+        </lo>
+    </footer>
+</body>
+</html>
