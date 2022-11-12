@@ -65,19 +65,19 @@ header{
 
 
  nav {
-    background-color:#D8C2C9;
+    background-color:transparent;
     text-align: center;
-    padding: 25px;
+    padding: 6px;
  }
 
  .nav__botao {
     background-color: #872C49;
     border-radius: 25px;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     color: white;
     font-size: 3vw;
-    margin: 0 auto;
+
  }
 
 .nav__botao:hover {
@@ -85,7 +85,7 @@ header{
     background-color: #D8C2C9;
     border: 2px solid #872C49;
     transition: 0.7s;
-    padding: 15px;
+    padding: 9px;
 }
 
  .art-vitrine {
@@ -101,14 +101,13 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 0 100px;
-    background-color: #D8C2C9;
     margin-top: 55px;
     
 }
  
 .seção-em-destaque__img {
     width: 24vw;
-    background-color: white;
+    background-color:#D8C2C9;
     border-radius: 50px;
     margin: 0 auto;
 }
@@ -117,6 +116,7 @@ header{
     border: 5px solid #843951;
     width: 70vw;
     margin-left: 20px;
+    background-color: #D8C2C9;
 }
 
 #descricao__titulo {
@@ -162,6 +162,23 @@ footer {
     text-decoration: none;
     color: white;
     display: inline;
+}
+
+#animacao__geral {
+    animation-name: animacao__geral; 
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacao__geral {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 1024px){
