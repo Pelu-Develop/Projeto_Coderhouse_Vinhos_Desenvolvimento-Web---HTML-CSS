@@ -12,13 +12,15 @@ li a {
     border-radius: 50px;
 }
 
-li a:hover {
+.transition:hover {
     color: #872C49;
     background-color: #D8C2C9;
-    border-radius: 50px;
+    border-radius: 25px;
+    transition: 0.7s;
+    padding: 10px;
 }
 body {
-    background-color: #D8C2C9;
+    background-color: #D8C2C9
 }
 
 header{
@@ -34,7 +36,6 @@ header{
     width: 100px;
 }
 
-
 #header__lista-navegacao {
     list-style: none;
 }
@@ -44,28 +45,47 @@ header{
     text-decoration: none;
     display: inline;
     padding: 30px;
-    font-size: 22px;
+    font-size: 30px;
 }
 
+#menu1 {
+    width: 50px;
+    display:none;
+    padding:20px;
+}
+
+#menu2 {
+    width: 50px;
+    display:none;
+}
+
+#header__quary1 {
+    display: none;
+}
+
+
  nav {
-    background-color:#D8C2C9;
+    background-color:transparent;
     text-align: center;
-    padding: 15px;
+    padding: 6px;
+    margin: 10px 0;
  }
 
  .nav__botao {
     background-color: #872C49;
-    border-radius: 50px;
+    border-radius: 25px;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     color: white;
-    font-size: 25px;
+    font-size: 3vw;
  }
 
 .nav__botao:hover {
     color: #872C49;
     background-color: #D8C2C9;
     border: 2px solid #872C49;
+    transition: 0.7s;
+    padding: 8px;
 }
 
 .catalogo {
@@ -83,8 +103,7 @@ header{
     background-color: #FCEBF1;
     border-radius: 10px;
     width: auto;
-    margin-bottom: 50px;
-    height: 550px;
+    margin: 25px 3vw;
 }
 
 .card__estrela {
@@ -97,29 +116,27 @@ header{
     font-weight: bold;
     color: #471C2A;
     opacity: 0.5;
-    font-size: 22px;
+    font-size: 1.5vw;
 }
 
 .card__opcoes {
-    transform:translate(230px)
+    transform: translate(16vw);
 }
 
 .card__image {
     display: block;
-    max-height: 350px;
-    max-width: 350px;
-    width: auto;
-    height: auto;
+    text-align: center;
+    width: 25vw;
 }
 
 .card__descricao {
     text-align: center;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 .card__valor {
     text-align: center;
-    font-size: 30px;
+    font-size: 3vw;
     padding: 15px;
     color: #872C49;
     margin-bottom: 10px;
@@ -128,23 +145,23 @@ header{
 .card__botao {
     
     display: inline;
-    margin-left: 42px;
-    align-items: center;
+    margin-left: 2.5vw;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5vw;
     background-color: #2C933C;
     border-radius: 10px;
-    padding: 15px 80px;
+    padding: 1vh 6vw;
     font-weight: bolder;
 }
 
 footer {
     background-image: url("/img/background-principal.jpg");
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    margin-top: 50px;
+    padding: 10px 20px;
     border-top: solid #512e39 ;
  }
 
@@ -154,13 +171,142 @@ footer {
     background-color: #512e39;
  }
 
-#footer__icons {
-    width: 50px;
-}
-
 .footer-lista-elementos {
     padding: 15px;
     text-decoration: none;
     color: white;
     display: inline;
+}
+
+#animacao__geral {
+    animation-name: animacao__geral; 
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacao__geral {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1024px){
+    .query__none {
+        display: none;
+    }
+
+    #menu1 {
+        display: block;
+    }
+
+
+    #menu1:hover #header__quary1 {
+        display: block;
+        position: absolute;
+        background-image: url(../img/background-principal.jpg);
+        margin-top: 15px;
+        margin-left: -100px;
+        padding: 7px;
+    }
+
+    #menu1:hover #header__quary1__lista-suspensa {
+        display: block;
+    }
+
+    #menu1:hover .header__quary1__lista-suspensa__elementos {
+        list-style: none;
+        text-align: center;
+        width: 150px;
+        padding: 15px;
+        border-radius: 10px;
+        transition: 0.7s;
+    }
+
+    #menu1:hover .header__quary1__lista-suspensa__elementos:hover {
+        background-color: #D8C2C9;
+    }
+
+    .seção-em-destaque {
+        flex-direction: column;
+        margin: 20px auto;
+   }
+
+   .seção-em-destaque__img {
+    margin-bottom: 25px;
+   }
+
+   #img__none{
+    display: none;
+   }
+    
+}
+
+@media (max-width: 905px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .query__none {
+        display: none;
+    }
+
+    #header__lista-navegacao {
+        display: none;
+    }
+    
+    #menu1{
+        display: none;
+    }
+
+    #menu2 {
+        display: block;
+    }
+
+    #header__quary2__lista-suspensa {
+        display: none;
+    }
+
+    #menu2:hover #header__quary2 {
+        display: block;
+        position: absolute;
+        background-image: url(../img/background-principal.jpg);
+        margin-top: 15px;
+        margin-left: -100px;
+        padding: 7px;
+    }
+
+    #menu2:hover #header__quary2__lista-suspensa {
+        display: block;
+    }
+
+    #menu2:hover .header__quary2__lista-suspensa__elementos {
+        list-style: none;
+        text-align: center;
+        width: 150px;
+        padding: 15px;
+        border-radius: 10px;
+        transition: 0.7s;
+    }
+
+    #menu2:hover .header__quary2__lista-suspensa__elementos:hover {
+        background-color: #D8C2C9;
+    }
+
+    .seção-em-destaque {
+        margin: center;
+    }
+
+    footer {
+        background-image: url(../img/background-footer.jpg);
+    }
+
+    .footer-lista-elementos {
+        display: block;
+    }
+
 }
