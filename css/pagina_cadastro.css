@@ -147,6 +147,11 @@ header{
     font-size: 2vw;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.7s;
+}
+
+#form__enviar:hover {
+    padding: 20px 35px;
 }
 
 #form__cancelar {
@@ -157,6 +162,11 @@ header{
     font-size: 2vw;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.7s;
+}
+
+#form__cancelar:hover {
+    padding: 20px 35px;
 }
 
 footer {
