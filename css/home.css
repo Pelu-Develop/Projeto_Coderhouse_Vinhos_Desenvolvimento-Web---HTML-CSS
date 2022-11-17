@@ -20,7 +20,7 @@ li a {
     padding: 10px;
 }
 body {
-    background-color: #D8C2C9
+    background-color: #D8C2C9 !important
 }
 
 header{
@@ -68,6 +68,7 @@ header{
     background-color:transparent;
     text-align: center;
     padding: 6px;
+    margin: 1;
  }
 
  .nav__botao {
@@ -85,7 +86,7 @@ header{
     background-color: #D8C2C9;
     border: 2px solid #872C49;
     transition: 0.7s;
-    padding: 9px;
+    padding: 8px;
 }
 
  .art-vitrine {
