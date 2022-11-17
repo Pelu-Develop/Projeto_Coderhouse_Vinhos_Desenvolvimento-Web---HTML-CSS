@@ -20,7 +20,7 @@ li a {
     padding: 10px;
 }
 body {
-    background-color: #D8C2C9
+    background-color: #D8C2C9 !important
 }
 
 header{
