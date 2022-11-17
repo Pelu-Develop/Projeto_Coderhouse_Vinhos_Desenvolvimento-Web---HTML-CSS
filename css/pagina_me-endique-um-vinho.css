@@ -20,7 +20,7 @@ li a {
     padding: 10px;
 }
 body {
-    background-color: #D8C2C9
+    background-color: #D8C2C9 !important
 }
 
 header{
@@ -65,19 +65,20 @@ header{
 
 
  nav {
-    background-color:#D8C2C9;
+    background-color:transparent;
     text-align: center;
-    padding: 25px;
+    padding: 6px;
+    margin: 10px;
  }
 
  .nav__botao {
     background-color: #872C49;
     border-radius: 25px;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     color: white;
-    font-size: 25px;
-    margin: 0 auto;
+    font-size: 3vw;
+
  }
 
 .nav__botao:hover {
@@ -85,13 +86,11 @@ header{
     background-color: #D8C2C9;
     border: 2px solid #872C49;
     transition: 0.7s;
-    padding: 15px;
+    padding: 8px;
 }
 
 .img-size {
-    max-width: 600px;
-    max-height: 600px;
-    width: auto;
+    width: 50vw;
     height: auto;
     border: 3px solid #512e39;
     border-radius: 10px;
@@ -103,7 +102,7 @@ header{
     background-color: #D8C2C9;
     display: grid;
     padding: 30px;
-    gap: 50px;
+    gap: 3vw;
     text-align: center;
     border-top: 3px solid #512e39;
     grid-template-areas: 
@@ -121,7 +120,7 @@ header{
     grid-area: descricão-form;
     border: 2px solid #512e39;
     border-radius: 10px ;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 #aventura {
@@ -133,7 +132,7 @@ header{
     grid-area: form-1;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 23px;
+    font-size: 1.8vw;
     
 }
 
@@ -145,7 +144,7 @@ header{
     grid-area: form-2;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 23px;
+    font-size: 2vw;
 }
 
 #estilo-vinho {
@@ -156,7 +155,7 @@ header{
     grid-area: form-3;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 28px;
+    font-size: 2.3vw;
 }
 
 #comida {
@@ -167,7 +166,7 @@ header{
     grid-area: form-4;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 24px;
+    font-size: 1.8vw;
 }
 
 #hora {
@@ -178,7 +177,7 @@ header{
     grid-area: form-5;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 28px;
+    font-size: 2.2vw;
 }
 
 #romance {
@@ -189,7 +188,7 @@ header{
     grid-area: form-6;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 24px;
+    font-size: 1.8vw;
 }
 
 #comemoracao {
@@ -200,11 +199,11 @@ header{
     grid-area: form-7;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 23px;
+    font-size: 2.5vw;
 }
 
 #botao__enviar {
-    font-size: 30px;
+    font-size: 2.5vw;
     padding: 15px;
     border-radius: 25px ;
     border: transparent;
@@ -221,7 +220,7 @@ header{
 }
 
 #botao__resetar {
-    font-size: 15px;
+    font-size: 1.5vw;
     padding: 10px;
     border-radius: 25px ;
     border: transparent;
@@ -258,6 +257,23 @@ footer {
     text-decoration: none;
     color: white;
     display: inline;
+}
+
+#animacao__geral {
+    animation-name: animacao__geral; 
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacao__geral {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 1024px){
