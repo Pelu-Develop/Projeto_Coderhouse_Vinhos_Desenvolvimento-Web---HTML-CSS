@@ -139,35 +139,7 @@ header{
     background-color:aliceblue; 
 }
 
-#form__enviar {
-    padding: 15px 30px;
-    border-radius: 10px;
-    background-color: #2C933C;
-    color: white;
-    font-size: 2vw;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.7s;
-}
 
-#form__enviar:hover {
-    padding: 20px 35px;
-}
-
-#form__cancelar {
-    padding: 15px 30px;
-    border-radius: 10px;
-    background-color: #D02F4C;
-    color: white;
-    font-size: 2vw;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.7s;
-}
-
-#form__cancelar:hover {
-    padding: 20px 35px;
-}
 
 footer {
     background-image: url("/img/background-principal.jpg");
