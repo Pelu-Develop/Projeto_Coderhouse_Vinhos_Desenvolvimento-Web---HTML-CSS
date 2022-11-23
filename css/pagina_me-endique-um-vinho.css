@@ -23,13 +23,21 @@ body {
     background-color: #D8C2C9 !important
 }
 
-header{
+header1{
     background-image: url("/img/background-principal.jpg");
     display: flex;
     align-items: center;
     justify-content:space-around;
     flex-wrap: nowrap;
     height: 70px;
+}
+
+header2 {
+    display: none;
+}
+
+.navbar {
+    background-image: url("/img/background-principal.jpg");
 }
 
 .header__icon-logo {
@@ -64,11 +72,11 @@ header{
 }
 
 
- nav {
+nav {
     background-color:transparent;
     text-align: center;
     padding: 6px;
-    margin: 10px;
+    margin: 1;
  }
 
  .nav__botao {
@@ -78,7 +86,6 @@ header{
     padding: 5px;
     color: white;
     font-size: 3vw;
-
  }
 
 .nav__botao:hover {
@@ -104,7 +111,6 @@ header{
     padding: 30px;
     gap: 3vw;
     text-align: center;
-    border-top: 3px solid #512e39;
     grid-template-areas: 
     "descricão-form descricão-form"
     "aventura form-1" 
@@ -132,7 +138,7 @@ header{
     grid-area: form-1;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     
 }
 
@@ -144,7 +150,7 @@ header{
     grid-area: form-2;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
 
 #estilo-vinho {
@@ -155,7 +161,7 @@ header{
     grid-area: form-3;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 2.3vw;
+    font-size: 2.1vw;
 }
 
 #comida {
@@ -166,7 +172,7 @@ header{
     grid-area: form-4;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
 }
 
 #hora {
@@ -177,7 +183,7 @@ header{
     grid-area: form-5;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 2.2vw;
+    font-size: 2vw;
 }
 
 #romance {
@@ -188,7 +194,7 @@ header{
     grid-area: form-6;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 1.8vw;
+    font-size: 1.3vw;
 }
 
 #comemoracao {
@@ -281,35 +287,16 @@ footer {
         display: none;
     }
 
-    #menu1 {
+    header1{
+        display: none;
+    }
+
+    header2 {
         display: block;
     }
 
-
-    #menu1:hover #header__quary1 {
-        display: block;
-        position: absolute;
-        background-image: url(../img/background-principal.jpg);
-        margin-top: 15px;
-        margin-left: -100px;
-        padding: 7px;
-    }
-
-    #menu1:hover #header__quary1__lista-suspensa {
-        display: block;
-    }
-
-    #menu1:hover .header__quary1__lista-suspensa__elementos {
-        list-style: none;
-        text-align: center;
-        width: 150px;
-        padding: 15px;
-        border-radius: 10px;
-        transition: 0.7s;
-    }
-
-    #menu1:hover .header__quary1__lista-suspensa__elementos:hover {
-        background-color: #D8C2C9;
+    .header__quary2__lista-suspensa{
+        display: flex;
     }
 
     .seção-em-destaque {
@@ -324,70 +311,20 @@ footer {
    #img__none{
     display: none;
    }
-    
+
+   #header__lista-navegacao {
+    display: none;
 }
 
-@media (max-width: 905px) {
-    header {
-        justify-content: space-between;
-    }
-
-    .query__none {
-        display: none;
-    }
-
-    #header__lista-navegacao {
-        display: none;
-    }
+.seção-em-destaque {
+    margin: center;
+}
     
-    #menu1{
-        display: none;
-    }
+   footer {
+    background-image: url(../img/background-footer.jpg);
+}
 
-    #menu2 {
-        display: block;
-    }
-
-    #header__quary2__lista-suspensa {
-        display: none;
-    }
-
-    #menu2:hover #header__quary2 {
-        display: block;
-        position: absolute;
-        background-image: url(../img/background-principal.jpg);
-        margin-top: 15px;
-        margin-left: -100px;
-        padding: 7px;
-    }
-
-    #menu2:hover #header__quary2__lista-suspensa {
-        display: block;
-    }
-
-    #menu2:hover .header__quary2__lista-suspensa__elementos {
-        list-style: none;
-        text-align: center;
-        width: 150px;
-        padding: 15px;
-        border-radius: 10px;
-        transition: 0.7s;
-    }
-
-    #menu2:hover .header__quary2__lista-suspensa__elementos:hover {
-        background-color: #D8C2C9;
-    }
-
-    .seção-em-destaque {
-        margin: center;
-    }
-
-    footer {
-        background-image: url(../img/background-footer.jpg);
-    }
-
-    .footer-lista-elementos {
-        display: block;
-    }
-
+.footer-lista-elementos {
+    display: block;
+}
 }

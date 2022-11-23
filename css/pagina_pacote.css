@@ -20,16 +20,20 @@ li a {
     padding: 10px;
 }
 body {
-    background-color: #D8C2C9
+    background-color: #D8C2C9 !important;
 }
 
-header{
+header1{
     background-image: url("/img/background-principal.jpg");
     display: flex;
     align-items: center;
     justify-content:space-around;
     flex-wrap: nowrap;
     height: 70px;
+}
+
+header2 {
+    display: none;
 }
 
 .header__icon-logo {
@@ -64,11 +68,11 @@ header{
 }
 
 
- nav {
+nav {
     background-color:transparent;
     text-align: center;
     padding: 6px;
-    margin: 10px 0;
+    margin: 1;
  }
 
  .nav__botao {
@@ -103,12 +107,18 @@ header{
     background-color: #FCEBF1;
     border-radius: 10px;
     width: auto;
-    margin: 25px 3vw;
+    margin: 1vw;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 .card__estrela {
-    display: inline-block;
-    margin:15px 0 0 15px;
+    display: inline;
+    width: 2vw;
 }
 
 .card__avaliacao {
@@ -120,12 +130,12 @@ header{
 }
 
 .card__opcoes {
-    transform: translate(16vw);
+    display: inline;
 }
 
 .card__image {
     display: block;
-    text-align: center;
+    align-self: center;
     width: 25vw;
 }
 
@@ -137,22 +147,19 @@ header{
 .card__valor {
     text-align: center;
     font-size: 3vw;
-    padding: 15px;
     color: #872C49;
-    margin-bottom: 10px;
 }
 
 .card__botao {
-    
     display: inline;
-    margin-left: 2.5vw;
     color: white;
     text-align: center;
     font-size: 1.5vw;
     background-color: #2C933C;
     border-radius: 10px;
-    padding: 1vh 6vw;
+    padding: 1vh 5vw;
     font-weight: bolder;
+    transition: 0.7s;
 }
 
 .card__botao:hover {
@@ -206,35 +213,16 @@ footer {
         display: none;
     }
 
-    #menu1 {
+    header1{
+        display: none;
+    }
+
+    header2 {
         display: block;
     }
 
-
-    #menu1:hover #header__quary1 {
-        display: block;
-        position: absolute;
-        background-image: url(../img/background-principal.jpg);
-        margin-top: 15px;
-        margin-left: -100px;
-        padding: 7px;
-    }
-
-    #menu1:hover #header__quary1__lista-suspensa {
-        display: block;
-    }
-
-    #menu1:hover .header__quary1__lista-suspensa__elementos {
-        list-style: none;
-        text-align: center;
-        width: 150px;
-        padding: 15px;
-        border-radius: 10px;
-        transition: 0.7s;
-    }
-
-    #menu1:hover .header__quary1__lista-suspensa__elementos:hover {
-        background-color: #D8C2C9;
+    .header__quary2__lista-suspensa{
+        display: flex;
     }
 
     .seção-em-destaque {
@@ -249,70 +237,20 @@ footer {
    #img__none{
     display: none;
    }
-    
+
+   #header__lista-navegacao {
+    display: none;
 }
 
-@media (max-width: 905px) {
-    header {
-        justify-content: space-between;
-    }
-
-    .query__none {
-        display: none;
-    }
-
-    #header__lista-navegacao {
-        display: none;
-    }
+.seção-em-destaque {
+    margin: center;
+}
     
-    #menu1{
-        display: none;
-    }
+   footer {
+    background-image: url(../img/background-footer.jpg);
+}
 
-    #menu2 {
-        display: block;
-    }
-
-    #header__quary2__lista-suspensa {
-        display: none;
-    }
-
-    #menu2:hover #header__quary2 {
-        display: block;
-        position: absolute;
-        background-image: url(../img/background-principal.jpg);
-        margin-top: 15px;
-        margin-left: -100px;
-        padding: 7px;
-    }
-
-    #menu2:hover #header__quary2__lista-suspensa {
-        display: block;
-    }
-
-    #menu2:hover .header__quary2__lista-suspensa__elementos {
-        list-style: none;
-        text-align: center;
-        width: 150px;
-        padding: 15px;
-        border-radius: 10px;
-        transition: 0.7s;
-    }
-
-    #menu2:hover .header__quary2__lista-suspensa__elementos:hover {
-        background-color: #D8C2C9;
-    }
-
-    .seção-em-destaque {
-        margin: center;
-    }
-
-    footer {
-        background-image: url(../img/background-footer.jpg);
-    }
-
-    .footer-lista-elementos {
-        display: block;
-    }
-
+.footer-lista-elementos {
+    display: block;
+}
 }
