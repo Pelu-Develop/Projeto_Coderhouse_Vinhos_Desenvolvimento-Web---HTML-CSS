@@ -1,0 +1,260 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.transition:hover {
+    color: #872C49;
+    background-color: #D8C2C9;
+    border-radius: 25px;
+    transition: 0.7s;
+    padding: 10px;
+}
+body {
+    background-color: #D8C2C9 !important;
+}
+
+header1{
+    background-image: url("/img/background-principal.jpg");
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    height: 70px;
+}
+
+header2 {
+    display: none;
+}
+
+.navbar {
+    background-image: url("/img/background-principal.jpg");
+}
+
+.header__icon-logo {
+    width: 100px;
+}
+
+#header__lista-navegacao {
+    list-style: none;
+}
+
+.header__lista-navegação__elementos {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
+}
+
+#menu1 {
+    width: 50px;
+    display:none;
+    padding:20px;
+}
+
+#menu2 {
+    width: 50px;
+    display:none;
+}
+
+#header__quary1 {
+    display: none;
+}
+
+
+ nav {
+    background-color:transparent;
+    text-align: center;
+    padding: 6px;
+    margin: 1;
+ }
+
+ .nav__botao {
+    background-color: #872C49;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 3vw;
+ }
+
+.nav__botao:hover {
+    color: #872C49;
+    background-color: #D8C2C9;
+    border: 2px solid #872C49;
+    transition: 0.7s;
+    padding: 8px;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px auto;
+
+}
+
+.card {
+    justify-self: center;
+    align-self: center;
+    background-color: #FCEBF1;
+    border-radius: 10px;
+    width: auto;
+    margin: 1vw;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__estrela {
+    display: inline;
+    width: 2vw;
+}
+
+.card__avaliacao {
+    display: inline-block;
+    font-weight: bold;
+    color: #471C2A;
+    opacity: 0.5;
+    font-size: 1.5vw;
+}
+
+.card__opcoes {
+    display: inline;
+}
+
+.card__image {
+    display: block;
+    align-self: center;
+    width: 25vw;
+}
+
+.card__descricao {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.card__valor {
+    text-align: center;
+    font-size: 3vw;
+    color: #872C49;
+}
+
+.card__botao {
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: #2C933C;
+    border-radius: 10px;
+    padding: 1vh 5vw;
+    font-weight: bolder;
+    transition: 0.7s;
+}
+
+.card__botao:hover {
+    cursor: pointer;
+    padding: 2vh 5vw;
+    border: 2px solid #872C49;
+}
+
+footer {
+    background-image: url("/img/background-principal.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-top: solid #512e39 ;
+ }
+
+ #footer__logo {
+    text-decoration: none;
+    color: white;
+    background-color: #512e39;
+ }
+
+.footer-lista-elementos {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+
+#animacao__geral {
+    animation-name: animacao__geral; 
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacao__geral {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1024px){
+    .query__none {
+        display: none;
+    }
+
+    header1{
+        display: none;
+    }
+
+    header2 {
+        display: block;
+    }
+
+    .header__quary2__lista-suspensa{
+        display: flex;
+    }
+
+    .seção-em-destaque {
+        flex-direction: column;
+        margin: 20px auto;
+   }
+
+   .seção-em-destaque__img {
+    margin-bottom: 25px;
+   }
+
+   #img__none{
+    display: none;
+   }
+
+   #header__lista-navegacao {
+    display: none;
+}
+
+.seção-em-destaque {
+    margin: center;
+}
+    
+   footer {
+    background-image: url(../img/background-footer.jpg);
+}
+
+.footer-lista-elementos {
+    display: block;
+}
+}
