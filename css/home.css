@@ -53,7 +53,7 @@ header2 {
     text-decoration: none;
     display: inline;
     padding: 30px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #menu1 {
@@ -85,7 +85,7 @@ header2 {
     text-decoration: none;
     padding: 5px;
     color: white;
-    font-size: 3vw;
+    font-size: 35px;
 
  }
 
@@ -129,14 +129,14 @@ header2 {
 }
 
 #descricao__titulo {
-    font-size: min(5vw);
+    font-size: 60px;
     color: #843951;
     padding-left: 15px;
 }
 
 #lista-de-descricao {
     list-style: none;
-    font-size: min(2.5vw);
+    font-size: 30px;
 }
 
 .lista-de-descrição__elementos {
@@ -218,6 +218,14 @@ footer {
 
    #img__none{
     display: none;
+   }
+
+   #descricao__titulo {
+    font-size: 40px;
+   }
+
+   #lista-de-descricao {
+    font-size: 25px;
    }
 
    #header__lista-navegacao {

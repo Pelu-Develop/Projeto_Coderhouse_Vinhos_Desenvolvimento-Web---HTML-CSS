@@ -46,7 +46,7 @@ header2 {
   text-decoration: none;
   display: inline;
   padding: 30px;
-  font-size: 30px; }
+  font-size: 25px; }
 
 #menu1 {
   width: 50px;
@@ -72,7 +72,7 @@ nav {
   text-decoration: none;
   padding: 5px;
   color: white;
-  font-size: 3vw; }
+  font-size: 35px; }
 
 .nav__botao:hover {
   color: #872C49;

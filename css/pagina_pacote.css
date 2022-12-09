@@ -49,7 +49,7 @@ header2 {
     text-decoration: none;
     display: inline;
     padding: 30px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #menu1 {
@@ -81,7 +81,7 @@ nav {
     text-decoration: none;
     padding: 5px;
     color: white;
-    font-size: 3vw;
+    font-size: 35px;
  }
 
 .nav__botao:hover {
@@ -126,7 +126,6 @@ nav {
     font-weight: bold;
     color: #471C2A;
     opacity: 0.5;
-    font-size: 1.5vw;
 }
 
 .card__opcoes {
@@ -141,20 +140,19 @@ nav {
 
 .card__descricao {
     text-align: center;
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 .card__valor {
     text-align: center;
-    font-size: 3vw;
     color: #872C49;
+    font-size: 35px;
 }
 
 .card__botao {
     display: inline;
     color: white;
     text-align: center;
-    font-size: 1.5vw;
     background-color: #2C933C;
     border-radius: 10px;
     padding: 1vh 5vw;

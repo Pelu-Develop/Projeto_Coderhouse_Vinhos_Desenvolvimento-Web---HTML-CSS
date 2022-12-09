@@ -53,7 +53,7 @@ header2 {
     text-decoration: none;
     display: inline;
     padding: 30px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #menu1 {
@@ -85,7 +85,7 @@ nav {
     text-decoration: none;
     padding: 5px;
     color: white;
-    font-size: 3vw;
+    font-size: 35px;
 
  }
 
@@ -111,8 +111,7 @@ nav {
     top: 200px;
     left: 700px;
     color: #fff;
-    font-size: 50px;
-    font-size: 3vw;
+    font-size: 30px;
 }
 
 #vitrine__text2 {
@@ -120,14 +119,14 @@ nav {
     color: #fff;
     top: 250px;
     left: 700px;
-    font-size: 3vw;
+    font-size: 30px;
     width: 500px;
 }
 
 #form {
     display: flex;
     justify-content: center;
-    font-size:2vw;
+    font-size: 25px;
     color: #872C49;
     margin: 50px;
 
@@ -140,7 +139,7 @@ nav {
     border: 1px solid #872C49;
     border-radius:10px;
     margin: 10px;
-    font-size: 2vw;
+    font-size: 17px;
 }
 
 .form__input:focus {
@@ -217,6 +216,20 @@ footer {
 
    #img__none{
     display: none;
+   }
+
+   #vitrine__text1 {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    font-size: 25px;
+   }
+
+   #vitrine__text2 {
+    position: absolute;
+    top: 130px;
+    left: 350px;
+    font-size: 20px;
    }
 
    #header__lista-navegacao {

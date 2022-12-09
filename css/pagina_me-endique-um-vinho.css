@@ -53,7 +53,7 @@ header2 {
     text-decoration: none;
     display: inline;
     padding: 30px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #menu1 {
@@ -85,7 +85,7 @@ nav {
     text-decoration: none;
     padding: 5px;
     color: white;
-    font-size: 3vw;
+    font-size: 35px;
  }
 
 .nav__botao:hover {
@@ -97,11 +97,16 @@ nav {
 }
 
 .img-size {
-    width: 50vw;
+    width: 30vw;
     height: auto;
     border: 3px solid #512e39;
     border-radius: 10px;
 
+}
+
+h1 {
+    font-size: 30px !important;
+    font-weight: bolder !important;
 }
 
 #form-grid {
@@ -126,7 +131,7 @@ nav {
     grid-area: descricão-form;
     border: 2px solid #512e39;
     border-radius: 10px ;
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 #aventura {
@@ -138,7 +143,7 @@ nav {
     grid-area: form-1;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 1.6vw;
+    font-size: 18px;
     
 }
 
@@ -150,7 +155,7 @@ nav {
     grid-area: form-2;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 1.7vw;
+    font-size: 22px;
 }
 
 #estilo-vinho {
@@ -161,7 +166,7 @@ nav {
     grid-area: form-3;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 2.1vw;
+    font-size: 16px;
 }
 
 #comida {
@@ -172,7 +177,7 @@ nav {
     grid-area: form-4;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 1.4vw;
+    font-size: 12px;
 }
 
 #hora {
@@ -183,7 +188,7 @@ nav {
     grid-area: form-5;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 2vw;
+    font-size: 15px;
 }
 
 #romance {
@@ -194,7 +199,7 @@ nav {
     grid-area: form-6;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 1.3vw;
+    font-size: 12px;
 }
 
 #comemoracao {
@@ -205,11 +210,11 @@ nav {
     grid-area: form-7;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 2.5vw;
+    font-size: 5px;
 }
 
 #botao__enviar {
-    font-size: 2.5vw;
+    font-size: 25px;
     padding: 15px;
     border-radius: 25px ;
     border: transparent;
@@ -226,7 +231,7 @@ nav {
 }
 
 #botao__resetar {
-    font-size: 1.5vw;
+    font-size: 15px;
     padding: 10px;
     border-radius: 25px ;
     border: transparent;
@@ -314,6 +319,30 @@ footer {
 
    #header__lista-navegacao {
     display: none;
+}
+
+h1 {
+    font-size: 17px !important;
+}
+
+#descricão-form {
+    font-size: 15px;
+}
+
+#form-1 {
+    font-size: 15px;
+}
+
+#form-2 {
+    font-size: 15px;
+}
+
+#botao__enviar {
+    font-size: 15px;
+}
+
+#botao__resetar {
+    font-size: 10px;
 }
 
 .seção-em-destaque {
