@@ -27,7 +27,7 @@ header1{
     background-image: url("/img/background-principal.jpg");
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-wrap: nowrap;
     height: 70px;
 }
