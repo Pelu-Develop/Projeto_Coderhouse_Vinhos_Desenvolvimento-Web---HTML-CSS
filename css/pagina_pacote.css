@@ -36,6 +36,10 @@ header2 {
     display: none;
 }
 
+.navbar {
+    background-image: url("../img/background-principal.jpg");
+}
+
 .header__icon-logo {
     width: 100px;
 }
