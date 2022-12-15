@@ -24,7 +24,7 @@ body {
 }
 
 header1{
-    background-image: url("/img/background-principal.jpg");
+    background-image: url("../img/background-principal.jpg");
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -37,7 +37,7 @@ header2 {
 }
 
 .navbar {
-    background-image: url("/img/background-principal.jpg");
+    background-image: url("../img/background-principal.jpg");
 }
 
 .header__icon-logo {
@@ -149,7 +149,7 @@ nav {
 
 
 footer {
-    background-image: url("/img/background-principal.jpg");
+    background-image: url("../img/background-principal.jpg");
     display: flex;
     justify-content: space-between;
     align-items: center;
