@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Playfair Display;
 }
 
 li a {
@@ -134,16 +134,21 @@ h1 {
     font-size: 25px;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 #aventura {
     grid-area: aventura;
 }
-
 
 #form-1 {
     grid-area: form-1;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 18px;
+    font-size: 23px;
     
 }
 
@@ -155,7 +160,7 @@ h1 {
     grid-area: form-2;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 22px;
+    font-size: 27px;
 }
 
 #estilo-vinho {
@@ -166,7 +171,7 @@ h1 {
     grid-area: form-3;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 16px;
+    font-size: 28px;
 }
 
 #comida {
@@ -177,7 +182,7 @@ h1 {
     grid-area: form-4;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 12px;
+    font-size: 25px;
 }
 
 #hora {
@@ -188,7 +193,7 @@ h1 {
     grid-area: form-5;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 15px;
+    font-size: 32px;
 }
 
 #romance {
@@ -199,7 +204,7 @@ h1 {
     grid-area: form-6;
     border: solid #512e39;
     border-radius: 10px ;
-    font-size: 12px;
+    font-size: 30px;
 }
 
 #comemoracao {
@@ -223,6 +228,7 @@ h1 {
     font-weight: bold;
     transition: 0.3s;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 #botao__enviar:hover {
@@ -300,6 +306,10 @@ footer {
         display: block;
     }
 
+    .nav__botao {
+        font-size: 25px;
+    }
+
     .header__quary2__lista-suspensa{
         display: flex;
     }
@@ -351,6 +361,7 @@ h1 {
     
    footer {
     background-image: url(../img/background-footer.jpg);
+    justify-content: center;
 }
 
 .footer-lista-elementos {

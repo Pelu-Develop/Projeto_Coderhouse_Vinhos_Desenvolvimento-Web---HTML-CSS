@@ -8,11 +8,11 @@
     <meta name="keywords" content="Vinhos,Indicação,Inteligencia artificial, questionario,Harmonização,Lauro de Freitas,E-comerce">
     <title>Quero Vinho | Harmonize-se</title>
     <link rel="stylesheet" href="../css/pagina_me-endique-um-vinho.css" class="css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-  <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
@@ -69,11 +69,9 @@
         </div>
         <form id="form-1" class="animate__animated animate__fadeInDown">
                 <legend><h1>Voce é uma pessoa que toma o mesmo vinho sempre ou gosta de se aventurar em varios tipos?</h1></legend>
-                <br>
                 <label>
                     <input type="radio" name="perfil" id="perfil1"> Gosto de tomar o mesmo vinho sempre
                 </label>
-                <br><br>
                 <label>
                     <input type="radio" name="perfil" id="perfil2"> Gosto de me aventurar no mundo dos vinhos, com varios rotulos, tipos e estilos
                 </label>
@@ -82,149 +80,137 @@
             <img src="../img/tipo-vinho.jpg" class="img-size" >
         </div>
         <form id="form-2" class="animate__animated animate__fadeInDown">
-                <legend><h1>Qual tipo de categoria de vinho voce mais gosta?</h1></legend>
-                <br>
+                <legend><h1>Qual tipo de categoria de vinho você mais gosta?</h1></legend>
+                <div class="flex-column">
                 <label>
                     <input type="radio" name="categoria" id="categoria1"> Vinho Tinto
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="categoria" id="categoria2"> Vinho Branco
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="categoria" id="categoria3"> Vinho Rosé
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="categoria" id="categoria4"> Espumante
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="categoria" id="categoria5"> Vinho Licoroso
                 </label>
+            </div>
         </form>
         <div id="estilo-vinho" class="animate__animated animate__fadeInDown">
             <img src="../img/estilo-vinho.jpg" class="img-size">
         </div>
         <form id="form-3" class="animate__animated animate__fadeInDown">
                 <legend><h1>Qual tipo de estilo te agrada mais?</h1></legend>
-                <br><br>
+                <div class="flex-column">
                 <label>
                     <input type="radio" name="estilo" id="estilo1"> Vinho Seco
                 </label>
-                <br><br>
+                
                 <label>
                     <input type="radio" name="estilo" id="estilo2"> Vinho Meio Seco
                 </label>
-                <br><br>
+                
                 <label>
                     <input type="radio" name="estilo" id="estilo3"> Vinho Seco
                 </label>
-                <br><br>
+                
                 <label>
                     <input type="radio" name="estilo" id="estilo4"> Vinho doce
                 </label>
+            </div>
         </form>
         <div id="comidas" class="animate__animated animate__fadeInDown">
             <img src="../img/comida.jpg" class="img-size" >
         </div>
         <form id="form-4" class="animate__animated animate__fadeInDown">
                 <legend><h1>Que tipo de comida faria voce abrir uma boa garrafa de vinho?</h1></legend>
-                <br>
+                <div class="flex-column">
                 <label>
                     <input type="radio" name="comida" id="comida1"> Queijo (Camembert,Brie,Gouda...)
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="comida" id="comida2"> Peixe Grelhado
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="comida" id="comida3"> Massa com molho Leve (cogumelo,madeira,ingles...)
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="comida" id="comida4"> Carnes Brancas
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="comida" id="comida5"> Carne Vermelhas
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="comida" id="comida6"> Saladas
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="comida" id="comida7"> Sushi
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="comida" id="comida1"> Risotos
                 </label>
-                <br>
                 <label>
                     <input type="radio" name="comida" id="comida1"> Sobremesa
                 </label>
+            </div>
         </form>
         <div id="hora" class="animate__animated animate__fadeInDown">
             <img src="../img/hora.jpg" class="img-size">
         </div>
         <form id="form-5" class="animate__animated animate__fadeInDown">
                 <legend><h1>Qual é o melhor hora de tomar uma boa taça de vinho?</h1></legend>
-                <br>
+                <div class="flex-column">
                 <label>
                     <input type="radio" name="hora" id="hora1"> No almoço
                 </label>
-                <br><br>
                 <label>
                     <input type="radio" name="hora" id="hora2"> Na tarde
                 </label>
-                <br><br>
                 <label>
                     <input type="radio" name="hora" id="hora3"> No final da tarde
                 </label>
-                <br><br>
                 <label>
                     <input type="radio" name="hora" id="hora4"> No jantar
                 </label>
+            </div>
         </form>
         <div id="romance" class="animate__animated animate__fadeInDown">
             <img src="../img/romance.jpg" class="img-size">
         </div>
         <form id="form-6" class="animate__animated animate__fadeInDown">
                 <legend><h1>Com quem voce gosta de apreciar uma boa taça de vinho?</h1></legend>
-                <br>
+                <div class="flex-column">
                 <label>
                     <input type="radio" name="pessoas" id="pessoas1"> Com a pessoa que eu amo (Namorado,Marido,Esposo)
                 </label>
-                <br><br>
                 <label>
                     <input type="radio" name="pessoas" id="pessoas2"> Com a minha Familia
                 </label>
-                <br><br>
                 <label>
                     <input type="radio" name="pessoas" id="pessoas3"> Com os meus amigos
                 </label>
-                <br><br>
                 <label>
                     <input type="radio" name="pessoas" id="pessoas4"> Prefiro degustar comigo mesmo
                 </label>
-                <br><br>
                 <label>
                     <input type="radio" name="pessoas" id="pessoas5"> <STRONG>TODAS AS OPCÕES ACIMA</STRONG>
                 </label>
+            </div>
         </form>
         <div id="comemoracao" class="animate__animated animate__fadeInDown">
             <img src="../img/comemoracao.jpg" class="img-size">
         </div>
         <form id="form-7" class="animate__animated animate__fadeInDown">
                 <legend><h1>SÓ BASTA ENVIAR</h1></legend>
-                <br><br>
+                <div>
                 <input type="Submit" value="ME INDIQUE UM VINHO" id="botao__enviar">
-                <br><br>
+                </div>
+                <div>
                 <input type="reset" value="Resetar as minhas respostas" id="botao__resetar">
+                </div>
         </form>
     </section>
     <footer>

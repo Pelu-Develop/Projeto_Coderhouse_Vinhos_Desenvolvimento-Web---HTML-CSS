@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Playfair Display;
 }
 
 li a {
@@ -207,6 +207,10 @@ footer {
         display: flex;
     }
 
+    .nav__botao {
+        font-size: 25px;
+    }
+
     .seção-em-destaque {
         flex-direction: column;
         margin: 20px auto;
@@ -238,6 +242,7 @@ footer {
     
    footer {
     background-image: url(../img/background-footer.jpg);
+    justify-content: center;
 }
 
 .footer-lista-elementos {

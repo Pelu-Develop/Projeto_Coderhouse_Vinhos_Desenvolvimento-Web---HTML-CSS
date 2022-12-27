@@ -3,7 +3,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: Playfair Display; }
 
 li a {
   text-decoration: none;
@@ -103,14 +103,14 @@ nav {
 
 .card__estrela {
   display: inline;
-  width: 2vw; }
+  width: 2.5vw; }
 
 .card__avaliacao {
   display: inline-block;
   font-weight: bold;
   color: #471C2A;
   opacity: 0.5;
-  font-size: 1.5vw; }
+  font-size: 20px; }
 
 .card__opcoes {
   display: inline; }
@@ -118,22 +118,22 @@ nav {
 .card__image {
   display: block;
   align-self: center;
-  width: 25vw; }
+  width: 350px; }
 
 .card__descricao {
   text-align: center;
-  font-size: 2vw; }
+  font-size: 20px; }
 
 .card__valor {
   text-align: center;
-  font-size: 3vw;
+  font-size: 20px;
   color: #872C49; }
 
 .card__botao {
   display: inline;
   color: white;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 25px;
   background-color: #2C933C;
   border-radius: 10px;
   padding: 1vh 5vw;
@@ -185,6 +185,8 @@ footer {
     display: none; }
   header2 {
     display: block; }
+  .nav__botao {
+    font-size: 25px; }
   .header__quary2__lista-suspensa {
     display: flex; }
   .seção-em-destaque {
@@ -199,6 +201,7 @@ footer {
   .seção-em-destaque {
     margin: center; }
   footer {
-    background-image: url(../../img/background-footer.jpg); }
+    background-image: url(../../img/background-footer.jpg);
+    justify-content: center; }
   .footer-lista-elementos {
     display: block; } }
