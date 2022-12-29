@@ -105,7 +105,7 @@ nav {
 }
 
 h1 {
-    font-size: 30px !important;
+    font-size: 20px !important;
     font-weight: bolder !important;
 }
 
@@ -131,7 +131,7 @@ h1 {
     grid-area: descricão-form;
     border: 2px solid #512e39;
     border-radius: 10px ;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .flex-column{
@@ -367,4 +367,50 @@ h1 {
 .footer-lista-elementos {
     display: block;
 }
+}
+
+@media (max-width: 1024px) {
+    #form-1 {
+        font-size: 15px;
+    }
+
+    #form-2 {
+        font-size: 15px;
+    }
+
+    #form-3 {
+        font-size: 15px;
+    }
+
+    #form-4 {
+        font-size: 15px;
+    }
+
+    #form-5 {
+        font-size: 15px;
+    }
+
+    #form-6 {
+        font-size: 15px;
+    }
+
+    #form-7 {
+        font-size: 15px;
+    }
+
+    #botao__enviar {
+        font-size: 15px;
+    }
+
+    #botao__enviar:hover {
+        padding: 15px;
+    }
+
+    #botao__resetar {
+        font-size: 10px;
+    }
+
+    #botao__resetar:hover {
+        padding: 12px;
+    }
 }
